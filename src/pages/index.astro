@@ -1,0 +1,102 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import Note from '~/components/widgets/Note.astro';
+import Features from '~/components/widgets/Features.astro';
+// import Features2 from '~/components/widgets/Features2.astro';
+// import Steps from '~/components/widgets/Steps.astro';
+// import Content from '~/components/widgets/Content.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+// import Stats from '~/components/widgets/Stats.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+import { projetos, perguntasFrequentes } from '~/admin';
+
+const metadata = {
+  title: 'LAPCEN',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    callToAction={{
+      text: 'Entre em contato',
+      href: '/contact',
+      icon: 'tabler:mail-forward',
+    }}
+    callToAction2={{ text: 'Saiba mais', href: '#start_about_us' }}
+    image={{ src: '~/assets/images/logo1.webp', alt: '' }}
+  >
+    <Fragment slot="title">
+      <span class="mr-auto underline decoration-accent dark:text-white highlight">Liga Acadêmica</span> de Psicologia
+      Cognitiva e Neuropsicologia
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        <span class="font-semibold">LAPCEN</span> é uma Liga Acadêmica da UnB, que busca promover uma formação acadêmica
+        ampliada e mais diversa relacionada à Psicologia Cognitiva e Neuropsicologia.
+      </span>
+    </Fragment>
+  </Hero>
+
+  <!-- Note Widget ******************* -->
+
+  <Note id="start_about_us" />
+
+  <!-- Features Widget *************** -->
+
+  <Features
+    id="projects"
+    tagline="Projetos"
+    title="Projetos desenvolvidos"
+    subtitle="Da investigação de padrões de pensamento à análise de circuitos neurais, nossos projetos abrem portas para novas perspectivas sobre como a mente funciona. Colaboramos com professores e colegas estudantes para trazer à tona pesquisas que enriquecem o nosso entendimento."
+    items={projetos}
+  />
+
+  <!-- FAQs Widget ******************* -->
+
+  <FAQs
+    title="Perguntas Mais Frequentes"
+    subtitle="A LAPCEN responde!"
+    tagline="FAQs"
+    classes={{ container: 'max-w-6xl' }}
+    items={perguntasFrequentes}
+  />
+
+  <!-- HighlightedPosts Widget ******* -->
+
+  <BlogLatestPosts
+    classes={{
+      container: 'bg-secondary',
+    }}
+    title="Veja mais em nossas postagens!"
+    information={`
+        As postagens são feitas para trazer notícias sobre a LAPCEN, blogs sobre projetos,
+        e seja lá o que mais quisermos.
+                `}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-secondary dark:bg-transparent"></div>
+    </Fragment>
+  </BlogLatestPosts>
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    callToAction={{
+      text: 'Entre em contato',
+      href: '/contact',
+      icon: 'tabler:mail-forward',
+    }}
+  >
+    <Fragment slot="title">LAPCEN</Fragment>
+
+    <Fragment slot="subtitle">Conectando paixão e ciência na jornada cognitiva</Fragment>
+  </CallToAction>
+</Layout>
