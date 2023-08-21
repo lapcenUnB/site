@@ -3,9 +3,13 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Blogs',
+      text: 'Sináptica Entrelinhas',
       href: getBlogPermalink(),
     },
+    {
+      text: 'Notícias',
+      href: '/categoria/noticias',
+    }
   ],
   actions: [{ type: 'button', text: 'Contato', href: '/contact' }],
 };
