@@ -13,11 +13,15 @@ import FAQs from '~/components/widgets/FAQs.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 import { projetos, perguntasFrequentes } from '~/admin';
+import type { MetaData } from '~/types';
 
 const metadata = {
   title: 'LAPCEN',
   ignoreTitleTemplate: true,
-};
+  robots: {
+    index: true,
+  },
+} satisfies MetaData;
 ---
 
 <Layout metadata={metadata}>

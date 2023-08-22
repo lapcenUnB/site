@@ -1,8 +1,11 @@
 ---
 # Aqui ficam metadados do post, dos quais apenas o título é obrigatório, e nem todos são usados visualmente no site.
 
+# Datas no formato ISO 8601
+# Possível converter por aqui: https://www.timestamp-converter.com/
 publishDate: 2023-01-02T00:00:00Z
 updateDate: 2023-08-21T00:00:00Z
+
 image: https://images.unsplash.com/photo-1507413245164-6160d8298b31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80
 
 title: Exemplo das propriedades aceitas # Única propriedade obrigatória

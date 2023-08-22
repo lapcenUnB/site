@@ -10,7 +10,7 @@ site:
 metadata:
   title:
     default: LAPCEN
-    template: '%s — AstroWind'
+    template: '%s — LAPCEN'
   description: "\U0001F680 TODO."
   robots:
     index: true
@@ -77,11 +77,11 @@ ui:
       colors:
         default: rgb(16 16 16)
         heading: rgb(0 0 0)
-        muted: rgb(40 40 40)
-        bgPage: '#f6f2d6'
-        primary: rgb(0 124 220)
-        secondary: rgb(30 58 138)
-        accent: rgb(109 40 217)
+        muted: rgb(47, 50, 46)
+        bgPage: rgb(246, 242, 214)
+        primary: rgb(238, 181, 61)
+        secondary: rgb(13, 40, 58)
+        accent: rgb(86, 195, 212)
         info: rgb(119 182 234)
         success: rgb(54 211 153)
         warning: rgb(251 189 35)
@@ -94,10 +94,10 @@ ui:
         default: rgb(247, 248, 248)
         heading: rgb(247, 248, 248)
         muted: rgb(200, 188, 208)
-        bgPage: rgb(3 6 32)
-        primary: rgb(29 78 216)
-        secondary: rgb(30 58 138)
-        accent: rgb(135 77 2267)
+        bgPage: rgb(13, 40, 58)
+        primary: rgb(238, 181, 61)
+        secondary: rgb(123, 160, 143)
+        accent: rgb(208, 238, 243)
         info: rgb(58 191 248)
         success: rgb(54 211 153)
         warning: rgb(251 189 35)

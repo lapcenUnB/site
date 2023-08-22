@@ -1,12 +1,16 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
-import ContactUs from '~/components/widgets/Contact.astro';
+// import ContactUs from '~/components/widgets/Contact.astro';
 import Features2 from '~/components/widgets/Features2.astro';
+import type { MetaData } from '~/types';
 
 const metadata = {
-  title: 'Contact',
-};
+  title: 'Contato',
+  robots: {
+    index: true,
+  },
+} satisfies MetaData;
 ---
 
 <Layout metadata={metadata}>
