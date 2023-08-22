@@ -7,3 +7,11 @@ image: https://images.unsplash.com/photo-1573511860302-28c524319d2a?ixlib=rb-4.0
 tags:
   - sináptica
 ---
+
+## A Sináptica
+A Sináptica surgiu da mente de Renan Rodrigues, atual presidente da LAPCEN, e Giovanny Delmondes, atual diretor de pesquisa, com o propósito de criar conteúdos de divulgação científica em Psicologia Cognitiva, Neuropsicologia e Neurociências. Atualmente, o grupo produz conteúdos audiovisuais e prepara seus primeiros vídeos. 
+
+## Por que um blog?
+A ideia de um blog surgiu como uma possibilidade de expansão da atividades da Sináptica, de forma a divulgar conteúdos não somente no formato audiovisual, mas também com a possibilidade de redigir textos sobre assuntos dos campos dominados pelo grupo. 
+
+Assim, criou-se o Sináptica Entrelinhas! Sejam bem-vindos! 
