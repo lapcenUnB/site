@@ -25,13 +25,13 @@ export const projetos = [
     title: 'Grupo de Estudos em Neurociências · Explorando o Cérebro',
     description:
       'Estudo e discussão de literatura selecionada com o objetivo de aprofundar e atualizar os conhecimentos em neurociência dos membros.',
-    icon: 'tabler:palette',
+    icon: 'tabler:book',
   },
   {
     title: 'Sináptica · Divulgando Conhecimentos',
     description:
       'Atividades de produção audiovisual versando sobre assuntos clássicos e novidades sobre a psicologia cognitiva e neuropsicologia e sua participação na sociedade. Além da divulgação de outros meios de canais de divulgação científica que trabalham com esses temas.',
-    icon: 'tabler:book',
+    icon: 'tabler:palette',
   },
   {
     title: 'Abertos a novas ideias e contribuições',
