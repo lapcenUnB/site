@@ -33,8 +33,6 @@ export const projetos = [
       'Atividades de produção audiovisual versando sobre assuntos clássicos e novidades sobre a psicologia cognitiva e neuropsicologia e sua participação na sociedade. Além da divulgação de outros meios de canais de divulgação científica que trabalham com esses temas.',
     icon: 'tabler:book',
   },
-  {},
-  {},
   {
     title: 'Abertos a novas ideias e contribuições',
     description:
