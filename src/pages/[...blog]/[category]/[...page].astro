@@ -6,16 +6,26 @@ import BlogList from '~/components/blog/List.astro';
 import Headline from '~/components/blog/Headline.astro';
 import Pagination from '~/components/blog/Pagination.astro';
 
-export async function getStaticPaths ({ paginate }) {
+export async function getStaticPaths({ paginate }) {
   return await getStaticPathsBlogCategory({ paginate });
 }
 
-const { page, category } = Astro.props;
+const { page, category } = Astro.props as { page: any; category: string };
+
+function formatCategorySlugToName(category: string) {
+  return category
+    .split('-')
+    .map((w) => {
+      if (w === '') return '';
+      return w[0].toUpperCase() + w.slice(1);
+    })
+    .join(' ');
+}
 
 const currentPage = page.currentPage ?? 1;
 
 const metadata = {
-  title: `Category '${category}' ${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
+  title: `Postagens de ${formatCategorySlugToName(category)} ${currentPage > 1 ? ` — Página ${currentPage}` : ''}`,
   robots: {
     index: blogCategoryRobots?.index,
     follow: blogCategoryRobots?.follow,
