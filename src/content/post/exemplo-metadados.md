@@ -23,8 +23,8 @@ tags:
   - guia
 
 author: Artur Padovesi
-# Se colocar draft como 'true', o post não será publicado, mesmo que o arquivo seja salvo.
-draft: false # Default: false
+# Se colocar draft como 'true', o post não será publicado no site, mesmo que o arquivo seja salvo.
+draft: true # Default: false
 
 metadata:
   # Alterando o título na tab do navegador e ao compartilhar o link:
