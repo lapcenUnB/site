@@ -74,7 +74,7 @@ const metadata = {
 
   <BlogLatestPosts
     classes={{
-      container: 'bg-secondary',
+      container: 'bg-secondary dark:bg-transparent',
     }}
     title="Veja mais em nossas postagens!"
     information={`
@@ -83,7 +83,7 @@ const metadata = {
                 `}
   >
     <Fragment slot="bg">
-      <div class="absolute inset-0 bg-secondary dark:bg-transparent"></div>
+      <div class="absolute inset-0 bg-secondary dark:bg-secondary opacity-20"></div>
     </Fragment>
   </BlogLatestPosts>
 
