@@ -42,8 +42,8 @@ Atividades de produção audiovisual versando sobre assuntos clássicos e novida
 
 ## Como se inscrever?
 
-Para mais detalhes do processo seletivo, não hesite em checar o nosso [Edital Processo Seletivo] (https://drive.google.com/file/d/1dvmcx_iwxuQJf2Hx_G8kcREcZhL7zgJl/view?usp=sharing)
+Para mais detalhes do processo seletivo, não hesite em checar o nosso [Edital Processo Seletivo](https://drive.google.com/file/d/1dvmcx_iwxuQJf2Hx_G8kcREcZhL7zgJl/view?usp=sharing)
 
-A inscrição é feita por [este formulário] (https://forms.gle/Bq8UVAKtRkMMXExu9)! 
+A inscrição é feita por [este formulário](https://forms.gle/Bq8UVAKtRkMMXExu9)! 
 
 Boa sorte!
