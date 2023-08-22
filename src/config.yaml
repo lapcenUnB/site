@@ -1,31 +1,27 @@
 site:
   name: LAPCEN
-  site: 'http://localhost:3000'
+  site: 'https://site-lapcenunb.vercel.app'
   base: '/'
   trailingSlash: false
 
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+  googleSiteVerificationId: null
 
 # Default SEO metadata
 metadata:
   title:
     default: LAPCEN
     template: '%s — LAPCEN'
-  description: "\U0001F680 TODO."
+  description: 'TODO.'
   robots:
     index: true
     follow: true
   openGraph:
     site_name: LAPCEN
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/hero.png'
         width: 1200
         height: 628
     type: website
-  twitter:
-    handle: 'TODO'
-    site: 'TODO'
-    cardType: summary_large_image
 
 i18n:
   language: pt-BR
