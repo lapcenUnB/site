@@ -1,4 +1,4 @@
-import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+import { getAsset } from './utils/permalinks';
 
 export const headerData = {
   links: [
@@ -59,6 +59,7 @@ export const footerData = {
   socialLinks: [
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/lapcenunb/' },
     { ariaLabel: 'Link Tree', icon: 'tabler:brand-linktree', href: 'https://linktr.ee/lapcenunb' },
+    { ariaLabel: 'Youtube', icon: 'tabler:brand-youtube', href: 'https://www.youtube.com/@lapcenunb' },
     // { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: '#' },
     // { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
 
