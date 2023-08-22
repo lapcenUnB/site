@@ -8,15 +8,15 @@ export const get = async () => {
   if (!APP_BLOG_CONFIG.isEnabled) {
     return new Response(null, {
       status: 404,
-      statusText: 'Not found',
+      statusText: 'Não encontrado',
     });
   }
 
   const posts = await fetchPosts();
 
   return rss({
-    title: `${SITE_CONFIG.name}’s Blog`,
-    description: METADATA_CONFIG?.description || "",
+    title: `Postagens de ${SITE_CONFIG.name}`,
+    description: METADATA_CONFIG?.description || '',
     site: import.meta.env.SITE,
 
     items: posts.map((post) => ({
@@ -24,6 +24,7 @@ export const get = async () => {
       title: post.title,
       description: post.excerpt,
       pubDate: post.publishDate,
+      author: post.author,
     })),
 
     trailingSlash: SITE_CONFIG.trailingSlash,
