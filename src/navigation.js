@@ -3,13 +3,30 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Sináptica Entrelinhas',
-      href: getBlogPermalink(),
+      text: 'Projetos',
+      href: '/#projetos',
     },
     {
-      text: 'Notícias',
-      href: '/categoria/noticias',
-    }
+      text: 'FAQ',
+      href: '/#faq',
+    },
+    {
+      text: 'Postagens',
+      links: [
+        {
+          text: 'Todas',
+          href: '/postagens',
+        },
+        {
+          text: 'Sináptica Entrelinhas',
+          href: '/categoria/sinaptica-entrelinhas',
+        },
+        {
+          text: 'Notícias',
+          href: '/categoria/noticias',
+        },
+      ],
+    },
   ],
   actions: [{ type: 'button', text: 'Contato', href: '/contact' }],
 };
@@ -17,17 +34,17 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Blog',
+      title: 'Notícias',
       links: [
-        { text: 'Veja todos', href: '/blog' },
-        { text: 'Sobre pesquisa 1', href: '/category/documentation' },
+        { text: 'Veja todos', href: '/categoria/noticias' },
+        { text: 'LAPCEN é criada', href: '/criacao-da-lapcen' },
       ],
     },
     {
-      title: 'Notícias',
+      title: 'Blogs',
       links: [
-        { text: 'Veja todas', href: '/blog' },
-        { text: 'LAPCEN é criada', href: '/criacao-da-lapcen' },
+        { text: 'Sináptica Entrelinhas', href: '/categoria/sinaptica-entrelinhas' },
+        // { text: 'Sobre pesquisa 1', href: '/categoria/pesquisa1' },
       ],
     },
     {
@@ -36,15 +53,17 @@ export const footerData = {
     },
   ],
   secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },
+    // { text: 'Terms', href: getPermalink('/terms') },
+    // { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/lapcenunb/' },
+    { ariaLabel: 'Link Tree', icon: 'tabler:brand-linktree', href: 'https://linktr.ee/lapcenunb' },
+    // { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: '#' },
+    // { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
+
+    /* Manter RSS para acessibilidade */
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
   ],
   footNote: `
     Feito por <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://github.com/artistrea"> Artur Padovesi Piratelli (artistrea)</a>
