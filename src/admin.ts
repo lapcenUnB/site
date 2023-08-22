@@ -3,7 +3,7 @@
 */
 export const alertas: AlertsT = [
   {
-    texto_destaque: 'Até 21 / 10',
+    texto_destaque: 'Até 28 / 08',
     texto_conteudo: 'Processo seletivo aberto! »',
     redireciona_para: '/blog',
   },
@@ -16,25 +16,23 @@ export const alertas: AlertsT = [
 
 export const projetos = [
   {
-    title: 'NeuroEduca · Desenvolvendo Estratégias de Aprendizagem Eficazes',
+    title: 'GESTO · Grupo de Estudos e Simulação Terapêutica Orientada',
     description:
-      'A equipe está planejando colaborar com educadores e alunos para avaliar diferentes técnicas de estudo, com foco em conceitos como espaçamento, recuperação ativa e elaboração. Por meio de workshops e materiais educativos, o projeto busca capacitar os estudantes com ferramentas práticas para aprimorar seu processo de aprendizado, usando os insights mais recentes da neurociência.',
+      'Atividade focada em estudo de casos com base na terapia cognitivo-comportamental e em técnicas de outras terapias cognitivas de terceira onda. São estudados casos clássicos da literatura e casos criados pelos membros. Ao fim de cada semestre, os membros desenvolvem atividades para o público da UnB e o público externo, podendo ser oficinas, palestras, rodas de conversa, entre outros. ',
     icon: 'tabler:eyeglass-2',
   },
   {
-    title: 'NeuroArte · Explorando a Criatividade e o Cérebro',
+    title: 'Grupo de Estudos em Neurociências · Explorando o Cérebro',
     description:
-      'No estágio inicial do projeto "NeuroArte", a LAPCEN está mergulhando na emocionante jornada de compreender a relação entre criatividade e atividade cerebral. A equipe está elaborando planos para conduzir estudos que analisarão padrões de atividade neural em indivíduos envolvidos em diversas atividades criativas, como música, arte visual e escrita. Além disso, o projeto pretende explorar como estímulos criativos podem influenciar positivamente a cognição e o bem-estar emocional',
+      'Estudo e discussão de literatura selecionada com o objetivo de aprofundar e atualizar os conhecimentos em neurociência dos membros.',
     icon: 'tabler:palette',
   },
   {
-    title: 'Grupo de Estudos',
+    title: 'Sináptica · Divulgando Conhecimentos',
     description:
-      'A equipe está planejando colaborar com educadores e alunos para avaliar diferentes técnicas de estudo, com foco em conceitos como espaçamento, recuperação ativa e elaboração. Por meio de workshops e materiais educativos, o projeto busca capacitar os estudantes com ferramentas práticas para aprimorar seu processo de aprendizado, usando os insights mais recentes da neurociência.',
+      'Atividades de produção audiovisual versando sobre assuntos clássicos e novidades sobre a psicologia cognitiva e neuropsicologia e sua participação na sociedade. Além da divulgação de outros meios de canais de divulgação científica que trabalham com esses temas.',
     icon: 'tabler:book',
   },
-  {},
-  {},
   {
     title: 'Abertos a novas ideias e contribuições',
     description:
@@ -50,7 +48,7 @@ export const perguntasFrequentes = [
   // },
   {
     title: 'Quando é o Processo Seletivo?',
-    description: 'Muda issaqui logo ein',
+    description: 'O processo seletivo sempre é divulgado em nossas redes sociais quando aberto, normalmente entre as duas semanas que marcam o fim do período de férias e início do semestre letivo. Por favor, cheque nossas redes para verificar se o processo seletivo está aberto.',
   },
   {
     title: 'O que eu preciso pra entrar na LAPCEN?',
@@ -60,7 +58,7 @@ export const perguntasFrequentes = [
   {
     title: 'Que cursos podem participar da LAPCEN?',
     description:
-      'Os cursos de graduação em psicologia, economia, biologia, medicina, serviço social, engenharia de software e engenharia de computação da UnB.',
+      'Os cursos de graduação em psicologia, economia, biologia, medicina, serviço social, engenharia de software e engenharia de computação da UnB. Contudo, os cursos aceitos variam de acordo com o edital do processo seletivo.',
   },
 ];
 
