@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-22-08T00:00:00Z
+publishDate: 2023-08-22T20:50:38.462Z
 title: Processo Seletivo 2023.2
 excerpt: Divulgação do edital do processo seletivo do período 2023.2.
 category: Notícias
