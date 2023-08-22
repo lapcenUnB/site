@@ -19,11 +19,11 @@ export const headerData = {
         },
         {
           text: 'Sináptica Entrelinhas',
-          href: '/categoria/sináptica-entrelinhas',
+          href: '/categoria/sinaptica-entrelinhas',
         },
         {
           text: 'Notícias',
-          href: '/categoria/notícias',
+          href: '/categoria/noticias',
         },
       ],
     },
