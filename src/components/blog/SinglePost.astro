@@ -37,7 +37,13 @@ const Content = post?.Content || null;
               </>
             )
           }
-          {post.readingTime && <> · {post.readingTime} min read</>}
+          {
+            post.readingTime && (
+              <>
+                {' · '} {post.readingTime} min de leitura
+              </>
+            )
+          }
         </p>
       </div>
       <h1
