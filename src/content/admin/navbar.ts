@@ -26,7 +26,7 @@ export const navbar: NavbarT = {
       ],
     },
   ],
-  actions: [{ type: 'button', text: 'Contato', href: '/contact' }],
+  actions: [{ type: 'button', text: 'Contato', href: '/contato' }],
 };
 
 type NavbarT = {

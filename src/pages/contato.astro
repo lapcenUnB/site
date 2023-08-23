@@ -4,6 +4,7 @@ import HeroText from '~/components/widgets/HeroText.astro';
 // import ContactUs from '~/components/widgets/Contact.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import type { MetaData } from '~/types';
+import { contatos } from '~/content/admin/contatos';
 
 const metadata = {
   title: 'Contato',
@@ -20,13 +21,5 @@ const metadata = {
 
   <!-- Features2 Widget ************** -->
 
-  <Features2
-    items={[
-      {
-        title: 'Email',
-        description: 'contact@support.com',
-        icon: 'tabler:mail',
-      },
-    ]}
-  />
+  <Features2 items={contatos} />
 </Layout>

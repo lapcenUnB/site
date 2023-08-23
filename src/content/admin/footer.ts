@@ -5,21 +5,30 @@ export const footer: FooterT = {
     {
       title: 'Notícias',
       links: [
-        { text: 'Veja todos', href: '/categoria/noticias' },
-        { text: 'LAPCEN é criada', href: '/criacao-da-lapcen' },
+        {
+          text: 'Veja todos',
+          href: '/categoria/noticias',
+        },
+        {
+          text: 'LAPCEN é criada',
+          href: '/criacao-da-lapcen',
+        },
       ],
     },
     {
       title: 'Blogs',
       links: [
-        { text: 'Sináptica Entrelinhas', href: '/categoria/sinaptica-entrelinhas' },
+        {
+          text: 'Sináptica Entrelinhas',
+          href: '/categoria/sinaptica-entrelinhas',
+        },
         // { text: 'Sobre pesquisa 1', href: '/categoria/pesquisa1' },
       ],
     },
-    {
-      title: 'Recursos',
-      links: [{ text: 'Biblioteca virtual', href: '#' }],
-    },
+    // {
+    //   title: 'Recursos',
+    //   links: [{ text: 'Biblioteca virtual', href: '#' }],
+    // },
   ],
   secondaryLinks: [
     // { text: 'Terms', href: '/terms' },
