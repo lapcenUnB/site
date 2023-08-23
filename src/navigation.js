@@ -67,6 +67,8 @@ export const footerData = {
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
   ],
   footNote: `
-    Feito por <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://github.com/artistrea"> Artur Padovesi Piratelli (artistrea)</a>
+    Website feito por <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://github.com/artistrea"> artistrea </a>(<a class="text-blue-600 hover:underline dark:text-gray-200" href="https://struct.unb.br">atualmente na Struct</a>)
+    <br/>
+    Logotipo e cores principais feitas por <a class="text-blue-600 hover:underline dark:text-gray-200" href="#">Ana Laura Abreu</a>
   `,
 };
