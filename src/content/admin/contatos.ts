@@ -1,7 +1,7 @@
 export const contatos = [
   {
     title: 'Email',
-    description: 'contact@support.com',
+    description: 'lapcen.unb@gmail.com',
     icon: 'tabler:mail',
   },
   //   {
