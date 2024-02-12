@@ -6,9 +6,9 @@ export const projetos = [
     icon: 'tabler:eyeglass-2',
   },
   {
-    title: 'Grupo de Estudos em Neurociências · Explorando o Cérebro',
+    title: 'GENEURO · Explorando o Cérebro',
     description:
-      'Estudo e discussão de literatura selecionada com o objetivo de aprofundar e atualizar os conhecimentos em neurociência dos membros.',
+      'Estudo, apresentação e discussão de literatura selecionada, incluindo artigos científicos de alto impacto, com o objetivo de aprofundar e atualizar os conhecimentos em neurociências dos participantes.',
     icon: 'tabler:book',
   },
   {
