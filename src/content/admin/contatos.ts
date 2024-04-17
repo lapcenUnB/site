@@ -7,7 +7,7 @@ export const contatos = [
   { 
     title: 'Endereço',
     description: 'ASS-024/5, ICC Sul, Universidade de Brasília',
-    icon: 'tabler:envelope',
+    icon: 'tabler:map-pins', 
   },
   //   {
   //     title: 'Telefone',
