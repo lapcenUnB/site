@@ -61,16 +61,13 @@ export const footer: FooterT = {
   ],
   footNote: `
       Website feito por
-      <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://github.com/artistrea">
-      artistrea
+      <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://www.linkedin.com/in/artur-padovesi-piratelli">
+        Artur Padovesi Piratelli
       </a>
-      (<a class="text-blue-600 hover:underline dark:text-gray-200" href="https://struct.unb.br">
-      atualmente na Struct
-      </a>)
       <br/>
       Logotipo e cores principais feitas por
       <a class="text-blue-600 hover:underline dark:text-gray-200" href="#">
-      Ana Laura Abreu
+        Ana Laura Abreu
       </a>
     `,
 };
