@@ -10,7 +10,7 @@ export const contatos = [
     icon: 'tabler:map-pins',
     callToAction: {
       text: 'Abra no google maps',
-      icon: 'tabler:map-pins',
+      icon: 'tabler:external-link',
       href: 'https://maps.app.goo.gl/QtsTAsRPwBB77msa7',
       // abre nova aba:
       targetBlank: true
