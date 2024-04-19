@@ -1,13 +1,20 @@
 export const contatos = [
   {
-    title: 'Email',
+    title: 'Email.',
     description: 'lapcen.unb@gmail.com',
     icon: 'tabler:mail',
   },
   { 
     title: 'Endereço',
     description: 'ASS-024/5, ICC Sul, Universidade de Brasília',
-    icon: 'tabler:map-pins', 
+    icon: 'tabler:map-pins',
+    callToAction: {
+      text: 'Abra no google maps',
+      icon: 'tabler:map-pins',
+      href: 'https://maps.app.goo.gl/QtsTAsRPwBB77msa7',
+      // abre nova aba:
+      targetBlank: true
+    }
   },
   //   {
   //     title: 'Telefone',
