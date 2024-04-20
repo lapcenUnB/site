@@ -23,6 +23,10 @@ export const navbar: NavbarT = {
           text: 'Notícias',
           href: '/categoria/noticias',
         },
+        {
+          text: 'Projetos',
+          href: '/categoria/projetos',
+        },
       ],
     },
   ],
