@@ -22,7 +22,7 @@ O projeto GESTO oferece uma experiência única para os estudantes de psicologia
 
 Outro benefício significativo é a oportunidade de receber feedback, permitindo aos estudantes aprimorar suas habilidades terapêuticas e ajustar sua abordagem da melhor forma. Esse feedback é inestimável para a formação de psicólogos competentes e confiantes.
 
-## Benefícios para os Estudantes
+## Venha Fazer Parte!
 O GESTO é um exemplo brilhante de como a Universidade de Brasília continua a inovar na educação em Psicologia. Ao fornecer uma abordagem prática e orientada para o ensino da Terapia Cognitiva Comportamental, o GESTO está ajudando a formar a próxima geração de psicólogos prontos para enfrentar os desafios do mundo real.
 
 Se você é estudante de Psicologia na UnB e está interessado em aprimorar suas habilidades em TCC, o GESTO é uma excelente oportunidade para você. Participe e descubra como a prática e a teoria podem se unir para criar uma experiência de aprendizado significativa e transformadora.
