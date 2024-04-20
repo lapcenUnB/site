@@ -1,5 +1,5 @@
 ---
-publishDate: 2024-04-20T17:05:20.46Z
+publishDate: 2024-04-20T17:05:246Z
 title: Conheça o GESTO: Formação Prática em Terapia Cognitiva Comportamental 
 excerpt: GESTO, Grupo de Estudos e Simulação Tapêutica Orientada, apresenta-se.
 category: Projetos
