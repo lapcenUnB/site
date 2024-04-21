@@ -9,6 +9,7 @@ tags:
   - projetos
 ---
 Idealização: Milla de Moura Abreu
+
 Coordenação: Milla de Moura Abreu e Pedro Luís de L. Telesca Mota
 
 O GENEURO foi idealizado a partir da perspectiva de ampliação dos conhecimentos em neurociências, com enfoque na pesquisa, leitura crítica, apresentação e discussão de artigos científicos de alto impacto na área. 
